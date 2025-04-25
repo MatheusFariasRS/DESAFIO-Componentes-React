@@ -1,0 +1,33 @@
+.ct-card{
+    width: 100%;
+    max-width: 746px;
+    margin: 0 auto;
+}
+
+.ct-card h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--dsc-color-font-secundary);
+}
+
+.ct-card-car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--dsc-color-bg-secundary);
+    margin-bottom: 20px;
+}
+
+.ct-card-car img {
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+.ct-card-car p {
+    font-size: 20;
+    font-weight: 700;
+    color: var(--dsc-color-font-secundary);
+    margin-bottom: 10px;
+}
+

@@ -3,8 +3,9 @@
 :root{
 
   --dsc-color-font-primary: #fff;
+  --dsc-color-font-secundary: #5E5E5E;
 
-  --dsc-color-bg-Header: #3C9AF0;
+  --dsc-color-bg-secundary: #3C9AF0;
 }
 
 *{
