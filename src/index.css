@@ -4,8 +4,11 @@
 
   --dsc-color-font-primary: #fff;
   --dsc-color-font-secundary: #5E5E5E;
+  --dsc-color-font-tertiary: #3C9AF0;
 
+  --dsc-color-bg-primary: #fff;
   --dsc-color-bg-secundary: #3C9AF0;
+  --dsc-color-bg-tertiary: #C8C8C8; 
 }
 
 *{
@@ -25,11 +28,13 @@ html, body{
 }
 
 main{
-  padding: 0 20px;
+  padding: 0;
 }
+
 
 .ct-container{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
+

@@ -1,4 +1,5 @@
 import CarSection from "../../components/CarSection";
+import CommentSection from "../../components/CommentSection";
 import HeaderComments from "../../components/HeaderComments";
 import './styles.css'
 
@@ -7,13 +8,11 @@ export default function CommentsPage(){
         <>
         <HeaderComments/>
         <main>
-            <section>
-                <div>
+            <section className="ct-car-container">
                 <CarSection/>
-                </div>
             </section>
-            <section>
-
+            <section className="ct-comment-container">
+                <CommentSection/>
             </section>
             <footer>
 
