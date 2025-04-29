@@ -1,5 +1,6 @@
 import CarSection from "../../components/CarSection";
 import CommentSection from "../../components/CommentSection";
+import FooterComments from "../../components/FooterComments";
 import HeaderComments from "../../components/HeaderComments";
 import './styles.css'
 
@@ -15,7 +16,7 @@ export default function CommentsPage(){
                 <CommentSection/>
             </section>
             <footer>
-
+                <FooterComments/>
             </footer>
         </main>
         </>
